@@ -10,7 +10,7 @@ Pro novou ilustraci pokoje byl použit také vestavěný nástroj OpenAI pro gen
 
 Současnou statickou podobu portfolia vytvořil Codex podle zadání a průběžné zpětné vazby autora. AI připravila strukturu hlavní stránky, její texty, grafické prvky, styly a navigaci v HTML a CSS. Úpravy prováděla přímo v souborech projektu.
 
-Při práci se vycházelo z existujícího portfolia a již přidaného projektu GoonOnTheGo Search. Codex přepracoval hlavní stránku a zachoval propojení s tímto projektem.
+Při práci se vycházelo z existujícího portfolia a již přidaného projektu Google Search. Codex přepracoval hlavní stránku a zachoval propojení s tímto projektem.
 
 ## Rozsah práce AI
 
@@ -19,7 +19,7 @@ Při práci se vycházelo z existujícího portfolia a již přidaného projektu
 - **Grafika:** pixelová ilustrace pokoje, lesní krajina, hvězdy a měsíc, ikony, robotické logo nahrazující písmeno „o“ ve jméně Vojta a ikona webu pro kartu prohlížeče. Ilustrace pokoje je generovaný rastrový obrázek; ostatní pixelové podklady jsou vytvořené v SVG nebo CSS.
 - **Navigace:** běžné odkazy mezi stránkami a sekcemi, plynulé posouvání pomocí CSS a vyhledávací formuláře v HTML.
 - **Kontakty:** zobrazení údajů dodaných autorem, přímé e-mailové odkazy a označitelný text Discord jména.
-- **Projekty:** prezentace projektů a odkaz na existující stránku GoonOnTheGo Search včetně jejího náhledu.
+- **Projekty:** prezentace projektů a odkaz na existující stránku Google Search včetně jejího náhledu.
 - **Dokumentace:** příprava této citace, její čitelné podoby na webu a README pro GitHub.
 
 ## Role autora

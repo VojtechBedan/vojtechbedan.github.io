@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" role="img" aria-labelledby="title desc">
+  <title id="title">Google Search</title>
+  <desc id="desc">Ilustrační náhled školního projektu: barevný nápis Google, vyhledávací pole a dvě tlačítka na bílém pozadí.</desc>
+  <rect width="800" height="360" fill="#fff"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g fill="#5f6368" font-size="12"><text x="545" y="30">Images</text><text x="640" y="30">Advanced Search</text><text x="744" y="30">Formuláře</text></g>
+    <text x="400" y="145" font-size="70" letter-spacing="-4"><tspan fill="#4285f4">G</tspan><tspan fill="#ea4335">o</tspan><tspan fill="#fbbc05">o</tspan><tspan fill="#4285f4">g</tspan><tspan fill="#34a853">l</tspan><tspan fill="#ea4335">e</tspan></text>
+    <rect x="155" y="173" width="490" height="44" rx="22" fill="#fff" stroke="#dfe1e5"/>
+    <g fill="none" stroke="#70757a" stroke-width="1.8"><circle cx="180" cy="194" r="6"/><path d="m184 198 5 5"/></g>
+    <g fill="#f8f9fa"><rect x="255" y="240" width="132" height="36" rx="4"/><rect x="401" y="240" width="144" height="36" rx="4"/></g>
+    <g fill="#3c4043" font-size="12"><text x="321" y="263">Google Search</text><text x="473" y="263">I'm Feeling Lucky</text></g>
+    <rect y="322" width="800" height="38" fill="#f2f2f2"/>
+    <g fill="#5f6368" font-size="11"><text x="85" y="346">CS50 Web · Search</text><text x="597" y="346">HTML validator</text><text x="694" y="346">CSS validator</text></g>
+  </g>
+</svg>

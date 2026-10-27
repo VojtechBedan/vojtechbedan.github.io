@@ -20,7 +20,7 @@
 - **Portfolio:** představení, projekty, co se učím a kontakty s přímými e-mailovými odkazy.
 - **Pixelový svět:** vlastní grafika, lesní paleta, měsíc a padající hvězdy.
 - **Plynulá navigace:** běžné odkazy mezi sekcemi s plynulým posouváním pomocí CSS.
-- **GoonOnTheGo Search:** projekt inspirovaný vyhledávačem Google, včetně obrázků a rozšířeného hledání.
+- **Google Search:** projekt inspirovaný vyhledávačem Google, včetně obrázků a rozšířeného hledání.
 
 Web je responzivní a používá **HTML a CSS** bez frameworků a bez sestavování. Písmo i grafické podklady jsou uložené přímo v repozitáři.
 
@@ -42,11 +42,10 @@ Příkaz spusť v kořenové složce projektu a otevři [localhost:8000](http://
 ├── style.css                  # rozvržení hlavní stránky
 ├── citace.html                # čitelná citace AI na webu
 ├── CITACE-AI.md                # citace ve formátu Markdown
-├── assets/                    # sdílené styly, grafika a písmo
-│   ├── pixel-theme.css        # pixelový vzhled a animované pozadí
-│   └── document.css           # vzhled dokumentace na webu
-└── projects/
-    └── googlesearch/          # GoonOnTheGo Search
+└── assets/                    # sdílené styly, grafika a písmo
+    ├── pixel-theme.css        # pixelový vzhled a animované pozadí
+    ├── document.css           # vzhled dokumentace na webu
+    └── google-search-preview.svg # náhled samostatného projektu Google Search
 ```
 
 ## Bez skriptů
@@ -58,3 +57,5 @@ Web neobsahuje JavaScript, hernu ani skrytá překvapení. Navigace používá b
 Současnou podobu portfolia vytvořil **OpenAI Codex** podle zadání a průběžné zpětné vazby autora. Ilustrace pokoje vznikla pomocí nástroje OpenAI pro generování obrázků. Rozsah práce AI a role autora jsou popsané v [citaci použití AI](CITACE-AI.md), která má i [čtenářskou verzi na webu](https://vojtechbedan.github.io/citace.html).
 
 Pixelové nadpisy používají **Pixelify Sans** od Stefie Justprince pod licencí SIL Open Font License 1.1. Podrobnosti najdeš v [dokumentaci podkladů](assets/README.md) a [licenčním textu písma](assets/fonts/OFL-PixelifySans.txt).
+
+Google Search je v [samostatném repozitáři](https://github.com/VojtechBedan/googlesearch), jeho [citace a prompty](https://github.com/VojtechBedan/googlesearch/blob/main/citace.md) jsou součástí tohoto projektu.
