@@ -56,26 +56,6 @@ body::before {
     pointer-events: none;
     image-rendering: pixelated;
 }
-/* The top reading bar follows document scroll without JavaScript. */
-@supports (animation-timeline: scroll(root block)) {
-    body::after {
-        content: "";
-        position: fixed;
-        inset: 0 0 auto;
-        z-index: 100;
-        height: 4px;
-        background: var(--tea);
-        transform: scaleX(0);
-        transform-origin: left center;
-        pointer-events: none;
-        animation: reading-progress auto linear both !important;
-        animation-timeline: scroll(root block) !important;
-    }
-}
-@keyframes reading-progress {
-    from { transform: scaleX(0); }
-    to { transform: scaleX(1); }
-}
 
 a { color: inherit; text-decoration: none; }
 /* A quiet pixel sky behind the content and the existing forest silhouette. */
